@@ -1,0 +1,99 @@
+body {
+  background-color: #a879e4;
+  color: white;
+  font-size: 1.1rem;
+}
+main {
+  width: 300px;
+  height: 280px;
+  background: linear-gradient(#b273d4, #9d6dcb);
+  padding: 2rem 0;
+  background-color: #a96fd2;
+  margin: 5rem auto;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #7a63b9;
+  position: relative;
+}
+span {
+  position: absolute;
+  background-color: white;
+  width: 0.15rem;
+  left: 1.8rem;
+}
+.one {
+  top: 0;
+  height: 4rem;
+}
+.two {
+  height: 2rem;
+  top: 0;
+}
+.three {
+  height: 1.1rem;
+  top: 3.25rem;
+}
+.four {
+  height: 1.1rem;
+  top: 5.6rem;
+}
+.five {
+  height: 3.5rem;
+  top: 7.9rem;
+}
+.six {
+  height: 3.2rem;
+  top: 2.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
+  position: relative;
+}
+.start {
+  justify-content: flex-start;
+  display: flex;
+}
+.content span {
+  opacity: 0.5;
+}
+.start:first-of-type {
+  margin-bottom: 1rem;
+}
+.start p {
+  margin: 1.3rem 0 0 0;
+}
+.content {
+  background-color: #564875;
+  padding: 1rem 1.6rem;
+  height: 128px;
+  position: relative;
+}
+.content p {
+  margin: 1rem;
+  position: relative;
+}
+.content p::before {
+  width: 0.5rem;
+  height: 0.5rem;
+  content: "";
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  /* margin-left: -1rem;
+  margin-bottom: -5rem; */
+  top: 0.48rem;
+  left: -1rem;
+}
+.white {
+  background-color: white;
+  border-radius: 50%;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: 1rem 1rem 0 0;
+}
+.white img {
+  width: 1rem;
+  height: 1rem;
+  margin: 0.5rem;
+}
